@@ -1,0 +1,34 @@
+.nav-bar-icon {
+  font-size: 21px;
+  color: #e7ebf0;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.website-logo {
+  font-size: 50px;
+  color: #000000;
+}
+
+.header-logo {
+  width: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .website-logo {
+    font-size: 25px;
+    color: #000000;
+    margin-left: 10px;
+  }
+
+  .header-logo {
+    width: 24px;
+    margin-left: 10px;
+  }
+}
